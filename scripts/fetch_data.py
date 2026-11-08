@@ -3,7 +3,7 @@
 
 The benchmark code lives in this repository; the domain data (tasks, database, policy,
 knowledge base, user-simulator guideline) is hosted as the dataset
-``NPCI/tau-indian-banking``. Run this once after installing the package:
+``davidbzyk/tau-indian-banking``. Run this once after installing the package:
 
     python scripts/fetch_data.py            # writes data/tau2/...
     python scripts/fetch_data.py --force    # re-download even if data is present
@@ -17,7 +17,7 @@ import os
 import sys
 from pathlib import Path
 
-REPO_ID = "NPCI/tau-indian-banking"
+REPO_ID = "davidbzyk/tau-indian-banking"
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 SENTINEL = DATA_DIR / "tau2" / "domains" / "indian_banking" / "tasks.json"

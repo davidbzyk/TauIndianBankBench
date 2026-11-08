@@ -2,9 +2,15 @@
 
 [![Python 3.12 | 3.13](https://img.shields.io/badge/python-3.12%20%7C%203.13-blue)](https://www.python.org/)
 [![Licence: MIT](https://img.shields.io/badge/licence-MIT-green)](LICENSE)
-[![Dataset on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20dataset-NPCI%2Ftau--indian--banking-yellow)](https://huggingface.co/datasets/NPCI/tau-indian-banking)
+[![Dataset on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20dataset-davidbzyk%2Ftau--indian--banking-yellow)](https://huggingface.co/datasets/davidbzyk/tau-indian-banking)
 [![Built on tau2-bench](https://img.shields.io/badge/built%20on-tau2--bench-lightgrey)](https://github.com/sierra-research/tau2-bench)
 [![Paper on arXiv](https://img.shields.io/badge/arXiv-2610.30161-b31b1b)](https://arxiv.org/abs/2610.30161)
+
+> **Fork for the benchmark-conversion eval.** This fork of
+> [NPCI/TauIndianBankBench](https://github.com/NPCI/TauIndianBankBench) fetches its data from
+> [davidbzyk/tau-indian-banking](https://huggingface.co/datasets/davidbzyk/tau-indian-banking),
+> a 20-task trim of upstream's dataset (20 of the 50-task test split). Nothing else is changed.
+> All credit to NPCI, and to Sierra Research for tau2.
 
 The benchmark measures how well a language model handles a bank's customer chat.
 The model under test plays the bank's assistant. A second model plays the
@@ -56,7 +62,7 @@ the quoted JSON arguments pass through unchanged.
 
 The domain data (tasks, database, policy, knowledge base, user-simulator
 guideline) is hosted on Hugging Face as
-[`NPCI/tau-indian-banking`](https://huggingface.co/datasets/NPCI/tau-indian-banking)
+[`davidbzyk/tau-indian-banking`](https://huggingface.co/datasets/davidbzyk/tau-indian-banking)
 rather than in this repository, and the package bundles it at build time, so
 fetch the data before installing the package.
 
