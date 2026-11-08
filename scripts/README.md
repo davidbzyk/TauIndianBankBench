@@ -12,7 +12,7 @@ python scripts/score.py data/simulations/<run>/results.json
 
 Downloads the domain data (tasks, database, policy, knowledge base,
 user-simulator guideline) from the Hugging Face dataset
-`NPCI/tau-indian-banking` into `data/`. Run it once before installing the
+`davidbzyk/tau-indian-banking` into `data/`. Run it once before installing the
 package or running the tests; set `HF_TOKEN` first if the dataset is gated.
 
 ```bash

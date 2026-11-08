@@ -42,7 +42,7 @@ dev = [
 
 [project.urls]
 Homepage = "https://github.com/npci/TauIndianBankBench"
-Dataset = "https://huggingface.co/datasets/NPCI/tau-indian-banking"
+Dataset = "https://huggingface.co/datasets/davidbzyk/tau-indian-banking"
 "Upstream harness (tau2-bench)" = "https://github.com/sierra-research/tau2-bench"
 
 [project.scripts]
